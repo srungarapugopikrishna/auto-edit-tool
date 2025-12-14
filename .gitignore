@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Docker
+*.log
+
+# Video files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.m4v
+*.flv
+*.wmv
+*.webm
+
+# Input/Output (keep structure, ignore content)
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+styles/*
+!styles/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  editor:
+    build: .
+    volumes:
+      - ./input:/input
+      - ./output:/output
+      - ./styles:/styles
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python run.py
+

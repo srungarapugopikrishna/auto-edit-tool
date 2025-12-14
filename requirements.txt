@@ -1,0 +1,12 @@
+# Python dependencies for the auto video editor
+# Note: These are installed in the Dockerfile
+# This file is for reference only
+
+torch
+openai-whisper
+librosa
+pydub
+sentence-transformers
+numpy
+scipy
+
