@@ -80,7 +80,14 @@ def _cut_with_filters(
         "-map", "[outv]",
         "-map", "[outa]",
         "-c:v", "libx264",
+        "-preset", "medium",
+        "-crf", "23",
+        "-pix_fmt", "yuv420p",
+        "-profile:v", "high",
+        "-level", "4.0",
         "-c:a", "aac",
+        "-b:a", "128k",
+        "-movflags", "+faststart",
         "-y",
         str(output_video_path)
     ]
